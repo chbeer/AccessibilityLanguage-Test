@@ -15,7 +15,8 @@
 		AAA0C00914BD8DE10062FF8C /* CBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA0C00814BD8DE10062FF8C /* CBAppDelegate.m */; };
 		AAA0C00C14BD8DE10062FF8C /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAA0C00A14BD8DE10062FF8C /* MainStoryboard_iPhone.storyboard */; };
 		AAA0C00F14BD8DE10062FF8C /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAA0C00D14BD8DE10062FF8C /* MainStoryboard_iPad.storyboard */; };
-		AAA0C01214BD8DE20062FF8C /* CBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA0C01114BD8DE20062FF8C /* CBViewController.m */; };
+		AAA4288414BD8FB800F7FC39 /* CBAccessibleLabelExamplesViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = AAA4288214BD8FB800F7FC39 /* CBAccessibleLabelExamplesViewController.h */; };
+		AAA4288514BD8FB800F7FC39 /* CBAccessibleLabelExamplesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA4288314BD8FB800F7FC39 /* CBAccessibleLabelExamplesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +24,16 @@
 		AAA0BFF814BD8DE10062FF8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AAA0BFFA14BD8DE10062FF8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AAA0BFFC14BD8DE10062FF8C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		AAA0C00014BD8DE10062FF8C /* AccessibilityLanguageTest-Info.plist */ = {isa = PBXFileReference; path = "AccessibilityLanguageTest-Info.plist"; sourceTree = "<group>"; };
+		AAA0C00014BD8DE10062FF8C /* AccessibilityLanguageTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AccessibilityLanguageTest-Info.plist"; sourceTree = "<group>"; };
 		AAA0C00214BD8DE10062FF8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AAA0C00414BD8DE10062FF8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AAA0C00614BD8DE10062FF8C /* AccessibilityLanguageTest-Prefix.pch */ = {isa = PBXFileReference; path = "AccessibilityLanguageTest-Prefix.pch"; sourceTree = "<group>"; };
-		AAA0C00714BD8DE10062FF8C /* CBAppDelegate.h */ = {isa = PBXFileReference; path = CBAppDelegate.h; sourceTree = "<group>"; };
+		AAA0C00614BD8DE10062FF8C /* AccessibilityLanguageTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AccessibilityLanguageTest-Prefix.pch"; sourceTree = "<group>"; };
+		AAA0C00714BD8DE10062FF8C /* CBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBAppDelegate.h; sourceTree = "<group>"; };
 		AAA0C00814BD8DE10062FF8C /* CBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBAppDelegate.m; sourceTree = "<group>"; };
 		AAA0C00B14BD8DE10062FF8C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		AAA0C00E14BD8DE10062FF8C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		AAA0C01014BD8DE10062FF8C /* CBViewController.h */ = {isa = PBXFileReference; path = CBViewController.h; sourceTree = "<group>"; };
-		AAA0C01114BD8DE20062FF8C /* CBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBViewController.m; sourceTree = "<group>"; };
+		AAA4288214BD8FB800F7FC39 /* CBAccessibleLabelExamplesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = CBAccessibleLabelExamplesViewController.h; sourceTree = "<group>"; };
+		AAA4288314BD8FB800F7FC39 /* CBAccessibleLabelExamplesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBAccessibleLabelExamplesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +82,10 @@
 			children = (
 				AAA0C00714BD8DE10062FF8C /* CBAppDelegate.h */,
 				AAA0C00814BD8DE10062FF8C /* CBAppDelegate.m */,
+				AAA4288214BD8FB800F7FC39 /* CBAccessibleLabelExamplesViewController.h */,
+				AAA4288314BD8FB800F7FC39 /* CBAccessibleLabelExamplesViewController.m */,
 				AAA0C00A14BD8DE10062FF8C /* MainStoryboard_iPhone.storyboard */,
 				AAA0C00D14BD8DE10062FF8C /* MainStoryboard_iPad.storyboard */,
-				AAA0C01014BD8DE10062FF8C /* CBViewController.h */,
-				AAA0C01114BD8DE20062FF8C /* CBViewController.m */,
 				AAA0BFFF14BD8DE10062FF8C /* Supporting Files */,
 			);
 			path = AccessibilityLanguageTest;
@@ -168,7 +169,8 @@
 			files = (
 				AAA0C00514BD8DE10062FF8C /* main.m in Sources */,
 				AAA0C00914BD8DE10062FF8C /* CBAppDelegate.m in Sources */,
-				AAA0C01214BD8DE20062FF8C /* CBViewController.m in Sources */,
+				AAA4288414BD8FB800F7FC39 /* CBAccessibleLabelExamplesViewController.h in Sources */,
+				AAA4288514BD8FB800F7FC39 /* CBAccessibleLabelExamplesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +292,7 @@
 				AAA0C01714BD8DE20062FF8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
