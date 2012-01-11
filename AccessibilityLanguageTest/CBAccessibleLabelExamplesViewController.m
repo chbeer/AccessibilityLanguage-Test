@@ -56,10 +56,12 @@
     static NSString *CellIdentifier = @"Cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     
+/* uncomment to add workaround to iOS bug
     if (!cell) {
         NSLog(@"!! iOS BUG!! This should not return nil because the Cell is defined in Storyboard! Happens when VoiceOver is on");
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
+ */
     
     // Configure the cell...
     CBAccessibleLabelExample *example = [self.rows objectAtIndex:indexPath.row];
